@@ -9,7 +9,7 @@ when creating views
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
     >
 
@@ -19,6 +19,7 @@ when creating views
         android:layout_height="115dp"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background"
